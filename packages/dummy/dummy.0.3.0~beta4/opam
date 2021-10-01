@@ -1,0 +1,31 @@
+opam-version: "2.0"
+maintainer: "Nathan Rebours <nathan.p.rebours@gmail.com>"
+homepage: "me.com/dummy.html"
+bug-reports: "https://github.com/Leonidas-from-XIV/dune-release-testing/issues"
+license: "ISC"
+dev-repo: "git+https://github.com/Leonidas-from-XIV/dune-release-testing.git"
+doc: "https://leonidas-from-xiv.github.io/dune-release-testing"
+build: [
+  [ "dune" "build" "-p" name "-j" jobs ]
+]
+run-test: [
+  [ "dune" "runtest" "-p" name "-j" jobs ]
+]
+depends: [
+  "dune" {build}
+  "ocaml" {>= "4.04.2"}
+]
+synopsis: "Some dummy package"
+description: """
+Test package please ignore
+"""
+authors: "Nathan Rebours <nathan.p.rebours@gmail.com>"
+url {
+  src:
+    "https://github.com/Leonidas-from-XIV/dune-release-testing/releases/download/v0.3.0_beta4/dummy-0.3.0.beta4.tbz"
+  checksum: [
+    "sha256=d175cdb8861a1674061d377170f85fa8ebf97651a83e7114c2debe9d689a960d"
+    "sha512=31e1f1addfb5c2380d7c52b57e4c1be6d2cff3aff15c6a83b9b6942e9d77c495a45038f9a22ca30eea68454b56a4e9928488eae3cc1bb357c077323ca357f459"
+  ]
+}
+x-commit-hash: "1c19ff1c65fdd56bd2f86a054bf3adc491b731db"
