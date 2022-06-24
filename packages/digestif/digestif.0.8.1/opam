@@ -40,7 +40,6 @@ depends: [
   "ocaml"          {>= "4.03.0"}
   "dune"           {>= "2.6.0"}
   "eqaf"
-  "base-bytes"
   "bigarray-compat"
   "stdlib-shims"
   "fmt"            {with-test}

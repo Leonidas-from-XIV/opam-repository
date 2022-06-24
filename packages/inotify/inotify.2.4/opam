@@ -11,7 +11,6 @@ bug-reports: "https://github.com/whitequark/ocaml-inotify/issues"
 depends: [
   "dune" {>= "2.9"}
   "base-unix"
-  "base-bytes"
   "fileutils" {with-test & >= "0.4.4"}
   "ounit2" {with-test & >= "2.0"}
   "lwt" {with-test}

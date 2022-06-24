@@ -25,7 +25,6 @@ depends: [
   "base" {build}
   "stdio" {build}
   "conf-postgresql" {build}
-  "base-bytes"
 ]
 url {
   src:

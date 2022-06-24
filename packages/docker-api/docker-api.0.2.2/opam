@@ -11,7 +11,6 @@ bug-reports: "https://github.com/Chris00/ocaml-docker/issues"
 depends: [
   "dune" {>= "2.8"}
   "ocaml" {>= "4.03"}
-  "base-bytes"
   "base-unix"
   "yojson" {>= "1.6.0"}
   "odoc" {with-doc}

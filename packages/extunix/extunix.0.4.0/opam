@@ -37,7 +37,6 @@ depends: [
   "dune-configurator" {>= "2.9" & build}
   "ppxlib" {>= "0.18" & build}
   "ounit2" {with-test}
-  "base-bytes"
   "base-bigarray"
   "base-unix"
   "odoc" {with-doc}

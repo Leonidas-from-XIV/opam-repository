@@ -19,7 +19,6 @@ depends: [
   "ocaml" {>= "4.03"}
   "dune" {>= "2.8"}
   "alcotest" {with-test}
-  "base-bytes"
   "integers"
   "result"
   "ctypes" {>= "0.12.0"}

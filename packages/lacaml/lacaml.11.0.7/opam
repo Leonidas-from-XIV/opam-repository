@@ -36,7 +36,6 @@ depends: [
   "dune-configurator"
   "conf-blas" {build}
   "conf-lapack" {build}
-  "base-bytes"
   "base-bigarray"
 ]
 available: arch = "x86_32" | arch = "x86_64"

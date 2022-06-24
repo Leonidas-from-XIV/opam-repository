@@ -16,7 +16,6 @@ build: [
 ]
 depends: [
   "dune" { >= "2.2" }
-  "base-bytes"
   "base-unix"
   "qcheck-core" { = version }
   "qcheck-ounit" { = version }

@@ -21,7 +21,6 @@ depends: [
   "dune" {>= "1.8"}
   "dune-configurator"
   "cppo" {build}
-  "base-bytes"
   "base-unix"
   "conf-bluetooth" {os = "linux"}
 ]

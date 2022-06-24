@@ -9,7 +9,6 @@ build: [
 ]
 depends: [
   "dune" { >= "2.0" }
-  "base-bytes"
   "odoc" {with-doc}
   "ocaml" { >= "4.03" }
 ]

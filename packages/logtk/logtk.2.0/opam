@@ -9,7 +9,6 @@ build: [
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
 depends: [
-  "base-bytes"
   "base-unix"
   "zarith"
   "oseq" {>= "0.3" & < "0.4"}

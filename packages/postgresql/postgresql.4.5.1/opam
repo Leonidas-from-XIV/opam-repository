@@ -21,7 +21,6 @@ depends: [
   "dune" {>= "1.7.0"}
   "base" {build}
   "stdio" {build}
-  "base-bytes"
   "conf-postgresql" {build}
 ]
 

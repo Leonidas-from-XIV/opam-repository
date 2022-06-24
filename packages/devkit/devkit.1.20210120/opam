@@ -23,7 +23,6 @@ depends: [
   "extunix" {>= "0.1.4" & < "0.4.0"}
   "lwt" {>= "2.5.2"}
   "lwt_ppx"
-  "base-bytes"
   "base-unix"
   "base-threads"
   "stdlib-shims"

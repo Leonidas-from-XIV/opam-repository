@@ -22,7 +22,6 @@ depends: [
   "dune-configurator"
   "base" {build}
   "stdio" {build}
-  "base-bytes"
   "conf-postgresql" {build}
 ]
 

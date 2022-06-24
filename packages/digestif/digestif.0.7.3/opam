@@ -33,7 +33,6 @@ depends: [
   "ocaml"          {>= "4.03.0"}
   "dune"           {>= "1.9.2" & < "2.6"}
   "eqaf"
-  "base-bytes"
   "base-bigarray"
   "fmt"            {with-test}
   "alcotest"       {with-test & < "1.0.0"}

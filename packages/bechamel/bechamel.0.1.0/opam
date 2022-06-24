@@ -21,7 +21,6 @@ depends: [
   "ocaml"      {>= "4.08.0"}
   "dune"       {>= "2.0.0"}
   "fmt"
-  "base-bytes"
   "stdlib-shims"
 ]
 x-commit-hash: "0d49a0955c69627ae7e1eda0748868e4df15d9fa"
